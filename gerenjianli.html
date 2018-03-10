@@ -3,8 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <title>个人简历</title>
+    <style>
+        body,div,p{
+            margin:0 auto;
+        }
+
+        #kuangjia{
+            width:50%;
+            height:800px;
+            background:#e9fcf8;
+            border:2px dashed #b1bcdd;
+        }
+
+        #title{
+            font-size:36px;
+            font-family: 微软雅黑;
+            text-align:center;
+            animation: title 20s;
+        }
+
+        #informtion1{
+            animation:informtion1 20s;
+        }
+
+        #informtion2{
+            animation:informtion2 20s;
+        }
+
+        #informtion3{
+            animation:informtion3 20s;
+        }
+
+        #informtion4{
+            animation:informtion4 20s;
+        }
+
+        #informtion5{
+            animation:informtion5 20s;
+        }
+
+        #informtion6{
+            animation:informtion6 20s;
+        }
+        .informtion{
+            font-size:26px;
+            color:#272b37;
+            margin-top:30px;
+        }
+
+        @keyframes title{
+             0%{opacity:0;}
+             10%{opacity:100;}
+         }
+
+        @keyframes informtion1{
+            0%{opacity:0;}
+            5%{opacity:0;}
+            15%{opacity:100;}
+        }
+
+        @keyframes informtion2{
+            0%{opacity:0;}
+            10%{opacity:0;}
+            20%{opacity:100;}
+        }
+
+        @keyframes informtion3{
+            0%{opacity:0;}
+            15%{opacity:0;}
+            25%{opacity:100;}
+        }
+
+        @keyframes informtion4{
+            0%{opacity:0;}
+            20%{opacity:0;}
+            30%{opacity:100;}
+        }
+
+        @keyframes informtion5{
+            0%{opacity:0;}
+            25%{opacity:0;}
+            35%{opacity:100;}
+        }
+
+        @keyframes informtion6{
+            0%{opacity:0;}
+            30%{opacity:0;}
+            40%{opacity:100;}
+        }
+    </style>
 </head>
 <body>
+    <div id="kuangjia">
 
+        <div id="title">
+            个人简历
+        </div>
+
+        <div class="informtion" id="informtion1">
+            信息1：_________
+        </div>
+
+        <div class="informtion" id="informtion2">
+            信息2：_________
+        </div>
+
+        <div class="informtion" id="informtion3">
+            信息3：_________
+        </div>
+
+        <div class="informtion" id="informtion4">
+            信息4：_________
+        </div>
+
+        <div class="informtion" id="informtion5">
+            信息5：_________
+        </div>
+
+        <div class="informtion" id="informtion6">
+            信息6：_________
+        </div>
+    </div>
 </body>
 </html>
